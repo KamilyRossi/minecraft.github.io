@@ -1,0 +1,107 @@
+@font-face{
+font-family:MC;
+src:url("fuentes/1_Minecraft-Regular.otf");
+}
+@font-face{
+font-family:MCT;
+src:url("fuentes/Minercraftory.ttf");
+}
+body{
+	background-image:url(imagenes/fondo.jpg);
+	margin-left:8%;
+	margin-right:8%;
+	line-height:37px;
+}
+p{
+	color:white;
+	text-align:justify;
+	font-size:25px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+}
+ul{
+	color:white;
+	text-align:justify;
+	font-size:25px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+}
+ol{
+	color:white;
+	text-align:justify;
+	font-size:25px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+}
+.biomas{
+	color:#fdff79;
+}
+table{
+	color:white;
+	text-align:justify;
+	font-size:20px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+}
+h1{
+	text-align:center;
+	font-family:MCT;
+	color:#cccccc;
+	font-size:65px;
+	text-shadow: 5px 5px 5px black;
+}
+h2{
+	color:black;
+	font-family:MCT;
+	font-size:35px;
+	text-shadow: 4px 4px 1px white;
+}
+h3{
+	color:black;
+	font-family:MCT;
+	font-size:23px;
+	text-shadow: 2px 2px 1px white;
+}
+.mail{
+	display:inline;
+	border-width:0px;
+}
+img{
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	border-style:ridge;
+	border-color:#b5a57b;
+	border-width:10px;
+}
+.links{
+	text-align:center;
+	border-width:0px;
+}
+.gal{
+	display:inline;
+	margin-left:2%;
+	margin-right:2%;
+}
+table{
+	border-width:0px;
+}
+td{
+	border-style:ridge;
+	border-color:#a5956b;
+	border-width:10px;
+	background-color:#634b33;
+}
+a:link{
+	font-size:20px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+	text-decoration:none;
+	color:#37be00;
+}
+a:hover{
+	color:#c44646;
+}
+a:visited{
+	color:#36fff2;
+}
