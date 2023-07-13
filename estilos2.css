@@ -1,0 +1,85 @@
+@font-face{
+font-family:MC;
+src:url("fuentes/1_Minecraft-Regular.otf");
+}
+@font-face{
+font-family:MCT;
+src:url("fuentes/Minercraftory.ttf");
+}
+h1{
+	display:flex;
+	text-align:center;
+	font-family:MCT;
+	color:#cccccc;
+	font-size:45px;
+	text-shadow: 5px 5px 5px black;
+}
+body{
+	background-image:url(imagenes/portadaeee.jpg);
+	background-size: cover;
+	line-height:37px;
+}
+p{
+    color:white;
+	text-align:center;
+	font-size:25px;
+	font-family:MC;
+	text-shadow: 4px 4px 1px black;
+}
+.todo{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.titulo{
+	display:flex;
+	background-color: rgba(0,0,0,0.5);
+	padding-left:2%;
+	padding-right:2%;
+}
+.texto{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-evenly;
+	height:60vh;
+}
+.desc{
+	height:auto;
+	width:40%;
+	background-color: rgba(0,0,0,0.5);
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:5px;
+}
+.login{
+	padding-top:8px;
+	padding-bottom:17px;
+	width:40%;
+	text-align:center;
+	background-color: rgba(50,50,50,0.5);
+}
+a{
+	border-style:ridge;
+	border-color:#b5a57b;
+	border-width:10px;
+	background-color:#634b33;
+	color:white;
+	text-align:justify;
+	font-size:25px;
+	font-family:MC;
+	text-decoration:none;
+}
+input{
+	text-align:justify;
+	font-size:15px;
+	font-family:MC;
+}
+.access{
+	margin-top:13.5px;
+	font-size:25px;
+}
